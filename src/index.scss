@@ -1,0 +1,32 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: $layout;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+  height: 100vh;
+  max-height: 843px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
