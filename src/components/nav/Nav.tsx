@@ -6,7 +6,8 @@ import navLogout from '../../assets/nav_logout.png'
 import navNotifications from '../../assets/nav_notifications.png'
 import navSettings from '../../assets/nav_settings.png'
 
-import './styles.scss'
+import './styles.scss';
+import './adaptive.styles.scss';
 
 export interface INavProps {
 
@@ -16,7 +17,7 @@ type LinkType = {
   select: boolean;
   src: string;
   alt: string;
-} 
+}
 
 export default function Nav(props: INavProps) {
 
@@ -44,7 +45,7 @@ export default function Nav(props: INavProps) {
   ])
 
   const handleSelect = (link: LinkType) => {
-    const select = links.map(el => el.alt === link.alt ? {...el, select: true} : {...el, select: false})
+    const select = links.map(el => el.alt === link.alt ? { ...el, select: true } : { ...el, select: false })
 
     setLinks(select)
   }
@@ -57,7 +58,7 @@ export default function Nav(props: INavProps) {
 
       <div className='assets'>
         {links.map((link) => {
-          return <div onClick={() => handleSelect(link)} key={link.alt} className={ link.select ? 'nav-links select select-after' : 'nav-links noSelect'}><img className='block' src={link.src} alt={link.alt} /></div>
+          return <div onClick={() => handleSelect(link)} key={link.alt} className={link.select ? 'nav-links select select-after' : 'nav-links noSelect'}><img className='block' src={link.src} alt={link.alt} /></div>
         })}
       </div>
 

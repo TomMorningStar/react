@@ -1,0 +1,150 @@
+.chats {
+    @media screen and (max-height: 837px) {
+        h3 {
+            font-size: 26px !important;
+        }
+
+        .items {
+            max-height: 260px !important;
+        }
+
+
+        .groups_oped {
+            max-height: 525px !important;
+        }
+
+
+        .people_oped {
+            max-height: 525px !important;
+        }
+
+        .groups_off {
+            max-height: 0px !important;
+        }
+
+        .people_off {
+            max-height: 0px !important;
+        }
+    }
+
+    @media screen and (max-height: 770px) {
+        h3 {
+            font-size: 24px !important;
+        }
+
+        .items {
+            max-height: 200px !important;
+
+            .item {
+                padding: 18px 20px !important;
+            }
+        }
+
+        .search-chat {
+            padding: 3px 30px !important;
+        }
+
+        .groups_oped {
+            max-height: 420px !important;
+        }
+
+        .people_oped {
+            max-height: 420px !important;
+        }
+
+        .groups_off {
+            max-height: 0px !important;
+        }
+
+        .people_off {
+            max-height: 0px !important;
+        }
+    }
+
+    @media screen and (max-height: 660px) {
+        .group-title {
+            padding: 10px !important;
+        }
+
+        h3 {
+            font-size: 24px !important;
+        }
+
+        .title {
+            font-size: 16px !important;
+        }
+
+        .items {
+            max-height: 185px !important;
+
+            .item {
+                padding: 14px 20px !important;
+            }
+        }
+
+        .groups_oped {
+            max-height: 355px !important;
+        }
+
+
+        .people_oped {
+            max-height: 355px !important;
+        }
+
+        .groups_off {
+            max-height: 0px !important;
+        }
+
+        .people_off {
+            max-height: 0px !important;
+        }
+    }
+
+
+    @media screen and (max-height: 585px) {
+        h3 {
+            font-size: 20px !important;
+        }
+
+        .groups {
+            margin: 15px 0 !important;
+        }
+
+        .items {
+            max-height: 175px !important;
+
+            .item {
+                padding: 10px 20px !important;
+            }
+        }
+
+
+        .search-chat {
+            padding: 1px 30px !important;
+        }
+
+        .groups_oped {
+            max-height: 360px !important;
+        }
+
+        .people_oped {
+            max-height: 360px !important;
+        }
+
+        .groups_off {
+            max-height: 0px !important;
+        }
+
+        .people_off {
+            max-height: 0px !important;
+        }
+    }
+
+
+    @media screen and (max-width: 1000px) {
+        & {
+            display: none !important;
+        }
+    }
+
+}

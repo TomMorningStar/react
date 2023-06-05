@@ -11,10 +11,6 @@ nav {
     .select {
         background-color: $nav_link_hover;
         border-right: 7px solid #F3B559;
-        transform: rotate(-360deg);
-        -webkit-transform: rotate(-360deg);
-        -o-transform: rotate(-360deg);
-        -moz-transform: rotate(-360deg);
         transition: 1s;
     }
 
@@ -43,12 +39,6 @@ nav {
 
     .logout {
         cursor: pointer;
-
-        &:hover {
-            background-color: $nav_link_hover;
-            border-bottom-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-        }
     }
 
     .avatar {
@@ -70,10 +60,17 @@ nav {
         padding: 20px 0;
 
         img {
-            width: 50px;
-            height: 50px;
+            width: 50%;
+            height: 50%;
             margin: auto;
             display: block;
+        }
+    }
+
+    .logout {
+        img {
+            width: 40px;
+            height: 40px;
         }
     }
 }

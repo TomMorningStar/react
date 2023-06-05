@@ -1,0 +1,42 @@
+.messenger-container {
+    
+    @media screen and (max-width: 1000px) {
+        & {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+
+
+            // display: none !important;
+            
+        }
+    }
+
+
+    @media screen and (max-width: 800px) {
+        & {
+            max-width: 100%;
+            height: 91%;
+
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+            form {
+                width: 90%;
+            }
+    }
+
+    @media screen and (max-width: 415px) {
+        & {
+            // height: 95%;
+
+            form {
+                width: 90%;
+            }
+        }
+    }
+}
